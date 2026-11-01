@@ -1,0 +1,31 @@
+[project]
+site_name = "Noter"
+site_description = "Architecture, requirements and development documentation for Noter."
+site_url = "https://fullbro.github.io/noter-docs/"
+repo_url = "https://github.com/fullbro/noter-docs"
+
+nav = [
+    { "Overview" = "index.md" },
+
+    { "Requirements" = [
+        "requirements/PRD.md",
+    ]},
+
+    { "Architecture" = [
+        "architecture/SAD.md",
+        { "Architecture Decision Records" = [
+            "decisions/ADR-001-tech-stack.md",
+            "decisions/ADR-002-database.md",
+            "decisions/ADR-003-pagination.md",
+        ]},
+    ]},
+
+    { "Development" = [
+        "development/roadmap.md",
+    ]},
+
+    { "Operations" = [
+        "operations/deployment.md",
+        "operations/backup-and-restore.md",
+    ]},
+]
