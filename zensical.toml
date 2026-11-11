@@ -17,6 +17,7 @@ nav = [
             "decisions/ADR-001-tech-stack.md",
             "decisions/ADR-002-database.md",
             "decisions/ADR-003-pagination.md",
+            "decisions/ADR-004-idempotency.md",
         ]},
     ]},
 
